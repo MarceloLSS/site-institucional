@@ -1,16 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Outfit");
 
-#final{
-    text-align: center;
-}
-
 body{
     background-color: yellow;
     font-family: "Outfit, sans-serif";
 }
 
+.conteudo{
+    text-align: center;
+    background-color: yellow;
+    width: 80%;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
 .oferta{
     text-align: center;
+    
 }
 
 button{
@@ -22,13 +27,18 @@ button{
     cursor: pointer; 
 }
 
-#logo{
-    width: 20%;
-    
-    
+button:hover{
+    color:  rgb(33, 51, 102);
+    background-color: yellow;
+    transform: scale(1.1);
+    transition: 1.5s;
+
 }
 
+#logo{
+    width: 20%;   
+}
 
-
-
-
+#fotofundo{
+    border-radius: 5%  
+}
